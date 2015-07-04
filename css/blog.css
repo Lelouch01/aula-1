@@ -1,4 +1,8 @@
 
+body{
+	background: url('../img/bg.jpg') repeat-y center top;
+}
+
 .blog-post-title{
 	color: green;
 }
@@ -6,11 +10,13 @@
 
 .blog-masthead{
 	background-color: #000;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 /* Estilo dos links do Topo */
 .blog-nav a{
 	color: #fff;
 	font-size: 20px;
-
+	padding-right: 40px; 
 }
